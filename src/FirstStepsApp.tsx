@@ -1,11 +1,11 @@
 import { ItemCounter } from "./shopping-cart/ItemCounter";
 
 interface ItemInCart {
-    pproductName: string;
+    productName: string;
     quantity: number;
 }
 
-const itemsInCart: ItemInCart = [
+const itemsInCart: ItemInCart[] = [
     { productName: 'Nintnedo Switch 2', quantity: 1 },
     { productName: 'Pro controller', quantity: 2 },
     { productName: 'Super Smash Bross', quantity: 5 },

@@ -1,7 +1,6 @@
-// Es recomendable que las constantes que no van a tener un cambio sean puestos fuera del componente REACT
-
 import type { CSSProperties } from "react";
 
+// Es recomendable que las constantes que no van a tener un cambio sean puestos fuera del componente REACT
 const firstName = 'Daniel';
 const lastName = 'Sepulveda';
 
