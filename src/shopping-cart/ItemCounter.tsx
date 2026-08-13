@@ -26,9 +26,7 @@ export const ItemCounter = ({ name, quantity = 1 }: Props) => {
     const handleSubstract = () => {
         if (count === 1)
             return;
-
         setCount(count - 1);
-
     }
 
 

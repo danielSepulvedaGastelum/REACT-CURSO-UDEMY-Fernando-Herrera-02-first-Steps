@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > Should match snapshop - screen 1`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+     
+    Daniel
+     
+  </h1>
+  <h3>
+     
+    Sepulveda
+     
+  </h3>
+  <p
+    class="mi-clase-favorita"
+  >
+    The Legend of Zelda, Mario Kart, DOOM, Mario Party
+  </p>
+  <p>
+    2 + 2
+  </p>
+  <h1>
+    No activo
+  </h1>
+  <p
+    style="background-color: rgb(204, 204, 204); border-radius: 1px; padding: 10px;"
+  >
+     
+    {"zipCode":85135,"contry":"Mexico"}
+  </p>
+</div>
+`;
+
+exports[`MyAwesomeApp > Should match snapshop 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="first-name-title"
+    >
+       
+      Daniel
+       
+    </h1>
+    <h3>
+       
+      Sepulveda
+       
+    </h3>
+    <p
+      class="mi-clase-favorita"
+    >
+      The Legend of Zelda, Mario Kart, DOOM, Mario Party
+    </p>
+    <p>
+      2 + 2
+    </p>
+    <h1>
+      No activo
+    </h1>
+    <p
+      style="background-color: rgb(204, 204, 204); border-radius: 1px; padding: 10px;"
+    >
+       
+      {"zipCode":85135,"contry":"Mexico"}
+    </p>
+  </div>
+</div>
+`;
